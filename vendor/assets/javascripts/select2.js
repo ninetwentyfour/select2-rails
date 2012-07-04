@@ -733,8 +733,8 @@
             var width  = this.container.outerWidth();
             var css    = {
                 top: offset.top + height,
-                left: offset.left,
-                width: width
+                left: offset.left
+                //width: width
             }
             this.dropdown.css(css);
         },
@@ -1032,8 +1032,8 @@
         // single
         createContainer: function () {
             return $("<div></div>", {
-                "class": "select2-container",
-                "style": "width: " + this.getContainerWidth()
+                "class": "select2-container"
+                //"style": "width: " + this.getContainerWidth()
             }).html([
                 "    <a href='javascript:void(0)' class='select2-choice'><input type='text' class='select2-offscreen select2-focusser'/>",
                 "   <span></span><abbr class='select2-search-choice-close' style='display:none;'></abbr>",
