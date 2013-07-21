@@ -36,9 +36,6 @@ Version: @@ver@@ Timestamp: @@timestamp@@
     background-image: -ms-linear-gradient(top, #eeeeee 0%, #ffffff 50%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#eeeeee', endColorstr = '#ffffff', GradientType = 0);
     background-image: linear-gradient(top, #eeeeee 0%, #ffffff 50%);
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -97,15 +94,10 @@ Version: @@ver@@ Timestamp: @@timestamp@@
     width:100%;
     margin-top:-1px;
 
-  -webkit-border-radius: 0 0 4px 4px;
-  -moz-border-radius: 0 0 4px 4px;
-  border-radius: 0 0 4px 4px;
+
 }
 
 .select2-container .select2-choice div {
-    -webkit-border-radius: 0 4px 4px 0;
-    -moz-border-radius: 0 4px 4px 0;
-    border-radius: 0 4px 4px 0;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -390,9 +382,6 @@ disabled look for already selected choices in the results dropdown
 }
 
 .select2-container-multi .select2-choices .select2-search-choice {
-  -webkit-border-radius: 3px;
-  -moz-border-radius   : 3px;
-  border-radius        : 3px;
   -moz-background-clip   : padding;
   -webkit-background-clip: padding-box;
   background-clip        : padding-box;
