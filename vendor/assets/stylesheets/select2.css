@@ -39,7 +39,7 @@ Version: @@ver@@ Timestamp: @@timestamp@@
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    border: 1px solid #aaa;
+    border: 1px solid #ccc;
     display: block;
     overflow: hidden;
     white-space: nowrap;
@@ -82,7 +82,7 @@ Version: @@ver@@ Timestamp: @@timestamp@@
 
 .select2-drop {
     background: #fff;
-    border: 1px solid #aaa;
+    border: 1px solid #ccc;
     border-top: 0;
     position: absolute;
     top: 100%;
@@ -109,7 +109,7 @@ Version: @@ver@@ Timestamp: @@timestamp@@
     background-image: -ms-linear-gradient(top, #cccccc 0%, #eeeeee 60%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#cccccc', endColorstr = '#eeeeee', GradientType = 0);
     background-image: linear-gradient(top, #cccccc 0%, #eeeeee 60%);*/
-    border-left: 1px solid #aaa;
+    border-left: 1px solid #ccc;
     position: absolute;
     right: 0;
     top: 0;
@@ -152,7 +152,7 @@ Version: @@ver@@ Timestamp: @@timestamp@@
     background: url('select2.png') no-repeat 100% -22px, linear-gradient(top, #ffffff 85%, #eeeeee 99%);
     padding: 4px 20px 4px 5px;
     outline: 0;
-    border: 1px solid #aaa;
+    border: 1px solid #ccc;
     font-family: sans-serif;
     font-size: 1em;
     width:100%;
@@ -189,7 +189,7 @@ Version: @@ver@@ Timestamp: @@timestamp@@
 }
 
 .select2-dropdown-open .select2-choice {
-  border: 1px solid #aaa;
+  border: 1px solid #ccc;
   border-bottom-color: transparent;
   -webkit-box-shadow: 0 1px 0 #fff inset;
   -moz-box-shadow   : 0 1px 0 #fff inset;
@@ -325,7 +325,7 @@ disabled look for already selected choices in the results dropdown
       background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
       background-image: -ms-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
       background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);*/
-      border: 1px solid #aaa;
+      border: 1px solid #ccc;
       margin: 0;
       padding: 0;
       cursor: text;
@@ -397,7 +397,7 @@ disabled look for already selected choices in the results dropdown
   -moz-box-shadow   : 0 0 2px #ffffff inset, 0 1px 0 rgba(0,0,0,0.05);
   box-shadow        : 0 0 2px #ffffff inset, 0 1px 0 rgba(0,0,0,0.05);
   color: #333;
-  border: 1px solid #aaaaaa;
+  border: 1px solid #ccc;
   line-height: 13px;
   padding: 3px 5px 3px 18px;
   margin: 3px 0 3px 5px;
